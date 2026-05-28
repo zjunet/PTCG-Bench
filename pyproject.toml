@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ptcgbench"
+version = "0.1.0"
+description = "Agents, benchmarks, backend, and frontend support for the PTCG engine."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.135.1",
+    "gepa>=0.1.1",
+    "httpx>=0.26.0",
+    "json-repair>=0.59.4",
+    "loguru>=0.7.0",
+    "matplotlib>=3.10.8",
+    "numpy>=1.24.0",
+    "openai>=2.29.0",
+    "playwright>=1.58.0",
+    "ptcg-engine",
+    "pydantic>=2.12.5",
+    "python-multipart>=0.0.6",
+    "pyyaml>=6.0",
+    "rich>=13.9.4",
+    "tcgdex-sdk>=2.2.1",
+    "tiktoken>=0.5.0",
+    "toon-format",
+    "uvicorn[standard]>=0.41.0",
+    "weave==0.52.36",
+    "websockets>=12.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ptcgbench*"]
+
+[tool.setuptools.package-data]
+ptcgbench = ["agents/prompts/*/*.md"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+ignore = ["F403", "F405", "F541"]
+
+[tool.uv.sources]
+ptcg-engine = { git = "https://github.com/gemelom/ptcg-engine" }
+toon-format = { git = "https://github.com/toon-format/toon-python.git" }
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]

@@ -1,0 +1,1965 @@
+{
+  "ASR-046": {
+    "name": "Radiant Greninja",
+    "set_name": "ASR",
+    "number": "046",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh10/046/high.jpg",
+    "hp": 130,
+    "stage": "Basic",
+    "types": [
+      "Water"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Moonlight Shuriken",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "Discard 2 Energy from this Pokémon. This attack does 90 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Concealed Cards",
+        "effect": "You must discard an Energy card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
+      }
+    ]
+  },
+  "ASR-154": {
+    "name": "Switch Cart",
+    "set_name": "ASR",
+    "number": "154",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh10/154/high.jpg",
+    "effect": "Switch your Active Basic Pokémon with 1 of your Benched Pokémon. If you do, heal 30 damage from the Pokémon you moved to your Bench."
+  },
+  "BRS-121": {
+    "name": "Bibarel",
+    "set_name": "BRS",
+    "number": "121",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh9/121/high.jpg",
+    "hp": 120,
+    "stage": "Stage1",
+    "types": [
+      "Colorless"
+    ],
+    "evolve_from": "Bidoof",
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Tail Smash",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 100,
+          "suffix": ""
+        },
+        "effect": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Industrious Incisors",
+        "effect": "Once during your turn, you may draw cards until you have 5 cards in your hand."
+      }
+    ]
+  },
+  "BRS-137": {
+    "name": "Collapsed Stadium",
+    "set_name": "BRS",
+    "number": "137",
+    "card_type": "Stadium",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh9/137/high.jpg",
+    "effect": "Each player can't have more than 4 Benched Pokémon. If a player has 5 or more Benched Pokémon, they discard Benched Pokémon until they have 4 Pokémon on the Bench. The player who played this card discards first. If more than one effect changes the number of Benched Pokémon allowed, use the smaller number."
+  },
+  "BRS-151": {
+    "name": "Double Turbo Energy",
+    "set_name": "BRS",
+    "number": "151",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh9/151/high.jpg",
+    "effect": "As long as this card is attached to a Pokémon, it provides ColorlessColorless Energy.\nThe attacks of the Pokémon this card is attached to do 20 less damage to your opponent's Pokémon (before applying Weakness and Resistance)."
+  },
+  "BRS-040": {
+    "name": "Lumineon V",
+    "set_name": "BRS",
+    "number": "040",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh9/040/high.jpg",
+    "tags": [
+      "V"
+    ],
+    "hp": 170,
+    "stage": "Basic",
+    "types": [
+      "Water"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Aqua Return",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 120,
+          "suffix": ""
+        },
+        "effect": "Shuffle this Pokémon and all attached cards into your deck."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Luminous Sign",
+        "effect": "When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+      }
+    ]
+  },
+  "BRS-041": {
+    "name": "Manaphy",
+    "set_name": "BRS",
+    "number": "041",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh9/041/high.jpg",
+    "hp": 70,
+    "stage": "Basic",
+    "types": [
+      "Water"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Rain Splash",
+        "cost": [
+          "Water"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": ""
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Wave Veil",
+        "effect": "Prevent all damage done to your Benched Pokémon by attacks from your opponent's Pokémon."
+      }
+    ]
+  },
+  "BRS-124": {
+    "name": "Minccino",
+    "set_name": "BRS",
+    "number": "124",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh9/124/high.jpg",
+    "hp": 60,
+    "stage": "Basic",
+    "types": [
+      "Colorless"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Call for Family",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+      },
+      {
+        "name": "Pound",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 10,
+          "suffix": ""
+        }
+      }
+    ]
+  },
+  "BRS-158": {
+    "name": "Raichu V",
+    "set_name": "BRS",
+    "number": "158",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh9/158/high.jpg",
+    "tags": [
+      "V"
+    ],
+    "hp": 200,
+    "stage": "Basic",
+    "types": [
+      "Lightning"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Fast Charge",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "If you go first, you can use this attack during your first turn. Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck."
+      },
+      {
+        "name": "Dynamic Spark",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": {
+          "amount": 60,
+          "suffix": "×"
+        },
+        "effect": "You may discard any amount of Lightning Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way."
+      }
+    ]
+  },
+  "BRS-048": {
+    "name": "Raikou V",
+    "set_name": "BRS",
+    "number": "048",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh9/048/high.jpg",
+    "tags": [
+      "V"
+    ],
+    "hp": 200,
+    "stage": "Basic",
+    "types": [
+      "Lightning"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Lightning Rondo",
+        "cost": [
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": "+"
+        },
+        "effect": "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's)."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Fleet-Footed",
+        "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may draw a card."
+      }
+    ]
+  },
+  "CRZ-111": {
+    "name": "Bidoof",
+    "set_name": "CRZ",
+    "number": "111",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/111/high.jpg",
+    "hp": 60,
+    "stage": "Basic",
+    "types": [
+      "Colorless"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Hyper Fang",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 30,
+          "suffix": ""
+        },
+        "effect": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Carefree Countenance",
+        "effect": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+      }
+    ]
+  },
+  "CRZ-127": {
+    "name": "Energy Retrieval",
+    "set_name": "CRZ",
+    "number": "127",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/127/high.jpg",
+    "effect": "Put up to 2 basic Energy cards from your discard pile into your hand."
+  },
+  "CRZ-135": {
+    "name": "Lost Vacuum",
+    "set_name": "CRZ",
+    "number": "135",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/135/high.jpg",
+    "effect": "You can use this card only if you put another card from your hand in the Lost Zone.\nChoose a Pokémon Tool attached to any Pokémon, or any Stadium in play, and put it in the Lost Zone."
+  },
+  "CRZ-020": {
+    "name": "Radiant Charizard",
+    "set_name": "CRZ",
+    "number": "020",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/020/high.jpg",
+    "hp": 160,
+    "stage": "Basic",
+    "types": [
+      "Fire"
+    ],
+    "retreat": 3,
+    "attacks": [
+      {
+        "name": "Combustion Blast",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 250,
+          "suffix": ""
+        },
+        "effect": "During your next turn, this Pokémon can't use Combustion Blast."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Excited Heart",
+        "effect": "This Pokémon's attacks cost Colorless less for each Prize card your opponent has taken."
+      }
+    ]
+  },
+  "CRZ-045": {
+    "name": "Rotom V",
+    "set_name": "CRZ",
+    "number": "045",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12.5/045/high.jpg",
+    "tags": [
+      "V"
+    ],
+    "hp": 190,
+    "stage": "Basic",
+    "types": [
+      "Lightning"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Scrap Short",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": {
+          "amount": 40,
+          "suffix": "+"
+        },
+        "effect": "Put any number of Pokémon Tool cards from your discard pile in the Lost Zone. This attack does 40 more damage for each card you put in the Lost Zone in this way."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Instant Charge",
+        "effect": "Once during your turn, you may draw 3 cards. If you use this Ability, your turn ends."
+      }
+    ]
+  },
+  "JTG-056": {
+    "name": "Lillie's Clefairy ex",
+    "set_name": "JTG",
+    "number": "056",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv09/056/high.jpg",
+    "hp": 190,
+    "stage": "Basic",
+    "types": [
+      "Psychic"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Full Moon Rondo",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": "+"
+        },
+        "effect": "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's)."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Fairy Zone",
+        "effect": "The Weakness of each of your opponent's {N} Pokémon in play is now {P}. (Apply Weakness as ×2.)"
+      }
+    ]
+  },
+  "LOR-171": {
+    "name": "Gift Energy",
+    "set_name": "LOR",
+    "number": "171",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh11/171/high.jpg",
+    "effect": "As long as this card is attached to a Pokémon, it provides Colorless Energy.\nIf the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent's Pokémon, draw cards until you have 7 cards in your hand."
+  },
+  "LOR-143": {
+    "name": "Snorlax",
+    "set_name": "LOR",
+    "number": "143",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh11/143/high.jpg",
+    "hp": 150,
+    "stage": "Basic",
+    "types": [
+      "Colorless"
+    ],
+    "retreat": 4,
+    "attacks": [
+      {
+        "name": "Thumping Snore",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 180,
+          "suffix": ""
+        },
+        "effect": "This Pokémon is now Asleep. During Pokémon Checkup, flip 2 coins instead of 1. If either of them is tails, this Pokémon is still Asleep."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Unfazed Fat",
+        "effect": "Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)"
+      }
+    ]
+  },
+  "MEW-151": {
+    "name": "Mew ex",
+    "set_name": "MEW",
+    "number": "151",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv03.5/151/high.jpg",
+    "hp": 180,
+    "stage": "Basic",
+    "types": [
+      "Psychic"
+    ],
+    "retreat": 0,
+    "attacks": [
+      {
+        "name": "Genome Hacking",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Restart",
+        "effect": "Once during your turn, you may draw cards until you have 3 cards in your hand."
+      }
+    ]
+  },
+  "MEW-017": {
+    "name": "Pidgeotto",
+    "set_name": "MEW",
+    "number": "017",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv03.5/017/high.jpg",
+    "hp": 80,
+    "stage": "Stage1",
+    "types": [
+      "Colorless"
+    ],
+    "evolve_from": "Pidgey",
+    "retreat": 0,
+    "attacks": [
+      {
+        "name": "Flap",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": ""
+        }
+      }
+    ]
+  },
+  "MEW-016": {
+    "name": "Pidgey",
+    "set_name": "MEW",
+    "number": "016",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv03.5/016/high.jpg",
+    "hp": 50,
+    "stage": "Basic",
+    "types": [
+      "Colorless"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Call for Family",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+      },
+      {
+        "name": "Tackle",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": ""
+        }
+      }
+    ]
+  },
+  "MEW-165": {
+    "name": "Rigid Band",
+    "set_name": "MEW",
+    "number": "165",
+    "card_type": "Pokémon Tool",
+    "img": "https://assets.tcgdex.net/en/sv/sv03.5/165/high.jpg",
+    "effect": "The Stage 1 Pokémon this card is attached to takes 30 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance)."
+  },
+  "MEW-123": {
+    "name": "Scyther",
+    "set_name": "MEW",
+    "number": "123",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv03.5/123/high.jpg",
+    "hp": 70,
+    "stage": "Basic",
+    "types": [
+      "Grass"
+    ],
+    "retreat": 0,
+    "attacks": [
+      {
+        "name": "Helpful Slash",
+        "cost": [
+          "Grass"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": ""
+        },
+        "effect": "Attach a Basic {G} Energy card from your discard pile to 1 of your Benched Pokémon."
+      },
+      {
+        "name": "Slicing Blade",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 70,
+          "suffix": ""
+        }
+      }
+    ]
+  },
+  "OBF-186": {
+    "name": "Arven",
+    "set_name": "OBF",
+    "number": "186",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/sv/sv03/186/high.jpg",
+    "effect": "Search your deck for an Item card and a Pokémon Tool card, reveal them, and put them into your hand. Then, shuffle your deck."
+  },
+  "OBF-026": {
+    "name": "Charmander",
+    "set_name": "OBF",
+    "number": "026",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv03/026/high.jpg",
+    "hp": 60,
+    "stage": "Basic",
+    "types": [
+      "Fire"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Heat Tackle",
+        "cost": [
+          "Fire"
+        ],
+        "damage": {
+          "amount": 30,
+          "suffix": ""
+        },
+        "effect": "This Pokémon also does 10 damage to itself."
+      }
+    ]
+  },
+  "OBF-080": {
+    "name": "Cleffa",
+    "set_name": "OBF",
+    "number": "080",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv03/080/high.jpg",
+    "hp": 30,
+    "stage": "Basic",
+    "types": [
+      "Psychic"
+    ],
+    "retreat": 0,
+    "attacks": [
+      {
+        "name": "Grasping Draw",
+        "cost": [],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "Draw cards until you have 7 cards in your hand."
+      }
+    ]
+  },
+  "OBF-189": {
+    "name": "Letter of Encouragement",
+    "set_name": "OBF",
+    "number": "189",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv03/189/high.jpg",
+    "effect": "You can use this card only if any of your Pokémon were Knocked Out during your opponent's last turn.\n\nSearch your deck for up to 3 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+  },
+  "OBF-164": {
+    "name": "Pidgeot ex",
+    "set_name": "OBF",
+    "number": "164",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv03/164/high.jpg",
+    "hp": 280,
+    "stage": "Stage2",
+    "types": [
+      "Colorless"
+    ],
+    "evolve_from": "Pidgeotto",
+    "retreat": 0,
+    "attacks": [
+      {
+        "name": "Blustery Wind",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 120,
+          "suffix": ""
+        },
+        "effect": "You may discard a Stadium in play."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Quick Search",
+        "effect": "Once during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. You can't use more than 1 Quick Search Ability each turn."
+      }
+    ]
+  },
+  "OBF-141": {
+    "name": "Scizor",
+    "set_name": "OBF",
+    "number": "141",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv03/141/high.jpg",
+    "hp": 140,
+    "stage": "Stage1",
+    "types": [
+      "Metal"
+    ],
+    "evolve_from": "Scyther",
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Punishing Scissors",
+        "cost": [
+          "Metal"
+        ],
+        "damage": {
+          "amount": 10,
+          "suffix": "+"
+        },
+        "effect": "This attack does 50 more damage for each of your opponent's Pokémon in play that has an Ability."
+      },
+      {
+        "name": "Cut",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "damage": {
+          "amount": 70,
+          "suffix": ""
+        }
+      }
+    ]
+  },
+  "PAF-054": {
+    "name": "Charizard ex",
+    "set_name": "PAF",
+    "number": "054",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv04.5/054/high.jpg",
+    "hp": 330,
+    "stage": "Stage2",
+    "types": [
+      "Darkness"
+    ],
+    "evolve_from": "Charmeleon",
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Burning Darkness",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "damage": {
+          "amount": 180,
+          "suffix": "+"
+        },
+        "effect": "This attack does 30 more damage for each Prize card your opponent has taken."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Infernal Reign",
+        "effect": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 Basic {R} Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."
+      }
+    ]
+  },
+  "PAF-007": {
+    "name": "Charmander",
+    "set_name": "PAF",
+    "number": "007",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv04.5/007/high.jpg",
+    "hp": 70,
+    "stage": "Basic",
+    "types": [
+      "Fire"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Blazing Destruction",
+        "cost": [
+          "Fire"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "Discard a Stadium in play."
+      },
+      {
+        "name": "Steady Firebreathing",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "damage": {
+          "amount": 30,
+          "suffix": ""
+        }
+      }
+    ]
+  },
+  "PAF-008": {
+    "name": "Charmeleon",
+    "set_name": "PAF",
+    "number": "008",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv04.5/008/high.jpg",
+    "hp": 90,
+    "stage": "Stage1",
+    "types": [
+      "Fire"
+    ],
+    "evolve_from": "Charmander",
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Combustion",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "damage": {
+          "amount": 50,
+          "suffix": ""
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Flare Veil",
+        "effect": "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)"
+      }
+    ]
+  },
+  "PAF-080": {
+    "name": "Iono",
+    "set_name": "PAF",
+    "number": "080",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/sv/sv04.5/080/high.jpg",
+    "effect": "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, each player draws a card for each of their remaining Prize cards."
+  },
+  "PAF-084": {
+    "name": "Nest Ball",
+    "set_name": "PAF",
+    "number": "084",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv04.5/084/high.jpg",
+    "effect": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+  },
+  "PAF-087": {
+    "name": "Professor's Research",
+    "set_name": "PAF",
+    "number": "087",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/sv/sv04.5/087/high.jpg",
+    "effect": "Discard your hand and draw 7 cards."
+  },
+  "PAF-089": {
+    "name": "Rare Candy",
+    "set_name": "PAF",
+    "number": "089",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv04.5/089/high.jpg",
+    "effect": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn."
+  },
+  "PAF-091": {
+    "name": "Ultra Ball",
+    "set_name": "PAF",
+    "number": "091",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv04.5/091/high.jpg",
+    "effect": "You can use this card only if you discard 2 other cards from your hand.\n\nSearch your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+  },
+  "PAL-171": {
+    "name": "Artazon",
+    "set_name": "PAL",
+    "number": "171",
+    "card_type": "Stadium",
+    "img": "https://assets.tcgdex.net/en/sv/sv02/171/high.jpg",
+    "effect": "Once during each player's turn, that player may search their deck for a Basic Pokémon that doesn't have a Rule Box and put it onto their Bench. Then, that player shuffles their deck. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)"
+  },
+  "PAL-265": {
+    "name": "Boss's Orders",
+    "set_name": "PAL",
+    "number": "265",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/sv/sv02/265/high.jpg",
+    "effect": "Switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+  },
+  "PAL-183": {
+    "name": "Great Ball",
+    "set_name": "PAL",
+    "number": "183",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv02/183/high.jpg",
+    "effect": "Look at the top 7 cards of your deck. You may reveal a Pokémon you find there and put it into your hand. Shuffle the other cards back into your deck."
+  },
+  "PAL-190": {
+    "name": "Jet Energy",
+    "set_name": "PAL",
+    "number": "190",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/sv/sv02/190/high.jpg",
+    "effect": "As long as this card is attached to a Pokémon, it provides {C} Energy.\n\nWhen you attach this card from your hand to 1 of your Benched Pokémon, switch that Pokémon with your Active Pokémon."
+  },
+  "PAL-264": {
+    "name": "Squawkabilly ex",
+    "set_name": "PAL",
+    "number": "264",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv02/264/high.jpg",
+    "hp": 160,
+    "stage": "Basic",
+    "types": [
+      "Colorless"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Motivate",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": ""
+        },
+        "effect": "Attach up to 2 Basic Energy cards from your discard pile to 1 of your Benched Pokémon."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Squawk and Seize",
+        "effect": "Once during your first turn, you may discard your hand and draw 6 cards. You can't use more than 1 Squawk and Seize Ability during your turn."
+      }
+    ]
+  },
+  "PAL-188": {
+    "name": "Super Rod",
+    "set_name": "PAL",
+    "number": "188",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv02/188/high.jpg",
+    "effect": "Shuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck."
+  },
+  "PAL-189": {
+    "name": "Superior Energy Retrieval",
+    "set_name": "PAL",
+    "number": "189",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv02/189/high.jpg",
+    "effect": "You can use this card only if you discard 2 other cards from your hand.\n\nPut up to 4 Basic Energy cards from your discard pile into your hand. (You can't choose a card you discarded with the effect of this card.)"
+  },
+  "PAL-193": {
+    "name": "Therapeutic Energy",
+    "set_name": "PAL",
+    "number": "193",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/sv/sv02/193/high.jpg",
+    "effect": "As long as this card is attached to a Pokémon, it provides {C} Energy.\n\nThe Pokémon this card is attached to recovers from being Asleep, Confused, or Paralyzed and can't be affected by those Special Conditions."
+  },
+  "PAR-160": {
+    "name": "Counter Catcher",
+    "set_name": "PAR",
+    "number": "160",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/160/high.jpg",
+    "effect": "You can use this card only if you have more Prize cards remaining than your opponent.\n\nSwitch in 1 of your opponent's Benched Pokémon to the Active Spot."
+  },
+  "PAR-163": {
+    "name": "Earthen Vessel",
+    "set_name": "PAR",
+    "number": "163",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/163/high.jpg",
+    "effect": "You can use this card only if you discard another card from your hand.\n\nSearch your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+  },
+  "PAR-139": {
+    "name": "Gholdengo ex",
+    "set_name": "PAR",
+    "number": "139",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/139/high.jpg",
+    "hp": 260,
+    "stage": "Stage1",
+    "types": [
+      "Metal"
+    ],
+    "evolve_from": "Gimmighoul",
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Make It Rain",
+        "cost": [
+          "Metal"
+        ],
+        "damage": {
+          "amount": 50,
+          "suffix": "×"
+        },
+        "effect": "Discard any number of Basic Energy cards from your hand. This attack does 50 damage for each card you discarded in this way."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Coin Bonus",
+        "effect": "Once during your turn, you may draw a card. If this Pokémon is in the Active Spot, draw 1 more card."
+      }
+    ]
+  },
+  "PAR-088": {
+    "name": "Gimmighoul",
+    "set_name": "PAR",
+    "number": "088",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/088/high.jpg",
+    "hp": 70,
+    "stage": "Basic",
+    "types": [
+      "Psychic"
+    ],
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Continuous Coin Toss",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": "×"
+        },
+        "effect": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+      }
+    ]
+  },
+  "PAR-248": {
+    "name": "Iron Hands ex",
+    "set_name": "PAR",
+    "number": "248",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/248/high.jpg",
+    "hp": 230,
+    "stage": "Basic",
+    "types": [
+      "Lightning"
+    ],
+    "retreat": 4,
+    "attacks": [
+      {
+        "name": "Arm Press",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 160,
+          "suffix": ""
+        }
+      },
+      {
+        "name": "Amp You Very Much",
+        "cost": [
+          "Lightning",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 120,
+          "suffix": ""
+        },
+        "effect": "If your opponent's Pokémon is Knocked Out by damage from this attack, take 1 more Prize card."
+      }
+    ]
+  },
+  "PAR-126": {
+    "name": "Jirachi",
+    "set_name": "PAR",
+    "number": "126",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/126/high.jpg",
+    "hp": 70,
+    "stage": "Basic",
+    "types": [
+      "Metal"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Charge Energy",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Stellar Veil",
+        "effect": "Prevent all damage counters from being placed on your Benched Pokémon by effects of attacks used by your opponent's Basic Pokémon."
+      }
+    ]
+  },
+  "PAR-257": {
+    "name": "Professor Turo's Scenario",
+    "set_name": "PAR",
+    "number": "257",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/257/high.jpg",
+    "effect": "Put 1 of your Pokémon in play into your hand. (Discard all cards attached to that Pokémon.)"
+  },
+  "PAR-086": {
+    "name": "Scream Tail",
+    "set_name": "PAR",
+    "number": "086",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/086/high.jpg",
+    "hp": 90,
+    "stage": "Basic",
+    "types": [
+      "Psychic"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Slap",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": {
+          "amount": 30,
+          "suffix": ""
+        }
+      },
+      {
+        "name": "Roaring Scream",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "This attack does 20 damage to 1 of your opponent's Pokémon for each damage counter on this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ]
+  },
+  "PAR-162": {
+    "name": "Defiance Vest",
+    "set_name": "PAR",
+    "number": "162",
+    "card_type": "Pokémon Tool",
+    "img": "https://assets.tcgdex.net/en/sv/sv04/162/high.jpg",
+    "effect": "If you have more Prize cards remaining than your opponent, the Pokémon this card is attached to takes 40 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance)."
+  },
+  "PGO-029": {
+    "name": "Zapdos",
+    "set_name": "PGO",
+    "number": "029",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh10.5/029/high.jpg",
+    "hp": 120,
+    "stage": "Basic",
+    "types": [
+      "Lightning"
+    ],
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Electric Ball",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 110,
+          "suffix": ""
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Lightning Symbol",
+        "effect": "Your Basic Lightning Pokémon's attacks, except any Zapdos, do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
+      }
+    ]
+  },
+  "PRE-043": {
+    "name": "Flutter Mane",
+    "set_name": "PRE",
+    "number": "043",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv08.5/043/high.jpg",
+    "hp": 90,
+    "stage": "Basic",
+    "types": [
+      "Psychic"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Hex Hurl",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 90,
+          "suffix": ""
+        },
+        "effect": "Put 2 damage counters on your opponent's Benched Pokémon in any way you like."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Midnight Fluttering",
+        "effect": "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon has no Abilities, except for Midnight Fluttering."
+      }
+    ]
+  },
+  "SFA-092": {
+    "name": "Fezandipiti ex",
+    "set_name": "SFA",
+    "number": "092",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv06.5/092/high.jpg",
+    "hp": 210,
+    "stage": "Basic",
+    "types": [
+      "Darkness"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Cruel Arrow",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Flip the Script",
+        "effect": "Once during your turn, if any of your Pokémon were Knocked Out during your opponent's last turn, you may draw 3 cards. You can't use more than 1 Flip the Script Ability each turn."
+      }
+    ]
+  },
+  "SIT-147": {
+    "name": "Archeops",
+    "set_name": "SIT",
+    "number": "147",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12/147/high.jpg",
+    "hp": 150,
+    "stage": "Stage2",
+    "types": [
+      "Colorless"
+    ],
+    "evolve_from": "Archen",
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Speed Wing",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 120,
+          "suffix": ""
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Primal Turbo",
+        "effect": "Once during your turn, you may search your deck for up to 2 Special Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck."
+      }
+    ]
+  },
+  "SIT-153": {
+    "name": "Capturing Aroma",
+    "set_name": "SIT",
+    "number": "153",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12/153/high.jpg",
+    "effect": "Flip a coin. If heads, search your deck for an Evolution Pokémon, reveal it, and put it into your hand. If tails, search your deck for a Basic Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+  },
+  "SIT-156": {
+    "name": "Forest Seal Stone",
+    "set_name": "SIT",
+    "number": "156",
+    "card_type": "Pokémon Tool",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12/156/high.jpg",
+    "effect": "The Pokémon V this card is attached to can use the VSTAR Power on this card.\nStar Alchemy\nDuring your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. (You can't use more than 1 VSTAR Power in a game.)"
+  },
+  "SIT-138": {
+    "name": "Lugia V",
+    "set_name": "SIT",
+    "number": "138",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12/138/high.jpg",
+    "tags": [
+      "V"
+    ],
+    "hp": 220,
+    "stage": "Basic",
+    "types": [
+      "Colorless"
+    ],
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Read the Wind",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 0,
+          "suffix": ""
+        },
+        "effect": "Discard a card from your hand. If you do, draw 3 cards."
+      },
+      {
+        "name": "Aero Dive",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 130,
+          "suffix": ""
+        },
+        "effect": "You may discard a Stadium in play."
+      }
+    ]
+  },
+  "SIT-139": {
+    "name": "Lugia VSTAR",
+    "set_name": "SIT",
+    "number": "139",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12/139/high.jpg",
+    "tags": [
+      "V"
+    ],
+    "hp": 280,
+    "stage": "VSTAR",
+    "types": [
+      "Colorless"
+    ],
+    "evolve_from": "Lugia V",
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Tempest Dive",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 220,
+          "suffix": ""
+        },
+        "effect": "You may discard a Stadium in play."
+      }
+    ]
+  },
+  "SIT-164": {
+    "name": "Serena",
+    "set_name": "SIT",
+    "number": "164",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12/164/high.jpg",
+    "effect": "Choose 1:\n• Discard up to 3 cards from your hand. (You must discard at least 1 card.) If you do, draw cards until you have 5 cards in your hand.\n• Switch 1 of your opponent's Benched Pokémon V with their Active Pokémon."
+  },
+  "SIT-169": {
+    "name": "V Guard Energy",
+    "set_name": "SIT",
+    "number": "169",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh12/169/high.jpg",
+    "effect": "As long as this card is attached to a Pokémon, it provides Colorless Energy.\nThe Pokémon this card is attached to takes 30 less damage from attacks from your opponent's Pokémon V (after applying Weakness and Resistance). This effect can't be applied more than once at a time to the same Pokémon."
+  },
+  "SVE-007": {
+    "name": "Darkness Energy",
+    "set_name": "SVE",
+    "number": "007",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh7/236/high.jpg"
+  },
+  "SVE-002": {
+    "name": "Fire Energy",
+    "set_name": "SVE",
+    "number": "002",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/sv/sv03/230/high.jpg"
+  },
+  "SVE-004": {
+    "name": "Lightning Energy",
+    "set_name": "SVE",
+    "number": "004",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/sv/sv01/257/high.jpg"
+  },
+  "SVE-008": {
+    "name": "Metal Energy",
+    "set_name": "SVE",
+    "number": "008",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh7/237/high.jpg"
+  },
+  "SVE-005": {
+    "name": "Psychic Energy",
+    "set_name": "SVE",
+    "number": "005",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh6/232/high.jpg"
+  },
+  "SVI-169": {
+    "name": "Defiance Band",
+    "set_name": "SVI",
+    "number": "169",
+    "card_type": "Pokémon Tool",
+    "img": "https://assets.tcgdex.net/en/sv/sv01/169/high.jpg",
+    "effect": "If you have more Prize cards remaining than your opponent, the attacks of the Pokémon this card is attached to do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
+  },
+  "SVI-170": {
+    "name": "Electric Generator",
+    "set_name": "SVI",
+    "number": "170",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv01/170/high.jpg",
+    "effect": "Look at the top 5 cards of your deck and attach up to 2 Basic {L} Energy cards you find there to your Benched {L} Pokémon in any way you like. Shuffle the other cards back into your deck."
+  },
+  "SVI-165": {
+    "name": "Flamigo",
+    "set_name": "SVI",
+    "number": "165",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv01/165/high.jpg",
+    "hp": 110,
+    "stage": "Basic",
+    "types": [
+      "Colorless"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Flap",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 30,
+          "suffix": ""
+        }
+      },
+      {
+        "name": "Nosedive",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 110,
+          "suffix": ""
+        },
+        "effect": "This Pokémon also does 20 damage to itself."
+      }
+    ]
+  },
+  "SVI-086": {
+    "name": "Gardevoir ex",
+    "set_name": "SVI",
+    "number": "086",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv01/086/high.jpg",
+    "hp": 310,
+    "stage": "Stage2",
+    "types": [
+      "Psychic"
+    ],
+    "evolve_from": "Kirlia",
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Miracle Force",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 190,
+          "suffix": ""
+        },
+        "effect": "This Pokémon recovers from all Special Conditions."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Psychic Embrace",
+        "effect": "As often as you like during your turn, you may attach a Basic {P} Energy card from your discard pile to 1 of your {P} Pokémon. If you attached Energy to a Pokémon in this way, put 2 damage counters on that Pokémon. You can't use this Ability on a Pokémon that would be Knocked Out."
+      }
+    ]
+  },
+  "SVI-175": {
+    "name": "Jacq",
+    "set_name": "SVI",
+    "number": "175",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/sv/sv01/175/high.jpg",
+    "effect": "Search your deck for up to 2 Evolution Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+  },
+  "SVI-253": {
+    "name": "Miraidon ex",
+    "set_name": "SVI",
+    "number": "253",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv01/253/high.jpg",
+    "hp": 220,
+    "stage": "Basic",
+    "types": [
+      "Lightning"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Photon Blaster",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 220,
+          "suffix": ""
+        },
+        "effect": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Tandem Unit",
+        "effect": "Once during your turn, you may search your deck for up to 2 Basic {L} Pokémon and put them onto your Bench. Then, shuffle your deck."
+      }
+    ]
+  },
+  "TEF-144": {
+    "name": "Buddy-Buddy Poffin",
+    "set_name": "TEF",
+    "number": "144",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/144/high.jpg",
+    "effect": "Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck."
+  },
+  "TEF-137": {
+    "name": "Cinccino",
+    "set_name": "TEF",
+    "number": "137",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/137/high.jpg",
+    "hp": 110,
+    "stage": "Stage1",
+    "types": [
+      "Colorless"
+    ],
+    "evolve_from": "Minccino",
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Gentle Slap",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 30,
+          "suffix": ""
+        }
+      },
+      {
+        "name": "Special Roll",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 70,
+          "suffix": "×"
+        },
+        "effect": "This attack does 70 damage for each Special Energy card attached to this Pokémon."
+      }
+    ]
+  },
+  "TEF-145": {
+    "name": "Ciphermaniac's Codebreaking",
+    "set_name": "TEF",
+    "number": "145",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/145/high.jpg",
+    "effect": "Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order."
+  },
+  "TEF-129": {
+    "name": "Dudunsparce",
+    "set_name": "TEF",
+    "number": "129",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/129/high.jpg",
+    "hp": 140,
+    "stage": "Stage1",
+    "types": [
+      "Colorless"
+    ],
+    "evolve_from": "Dunsparce",
+    "retreat": 3,
+    "attacks": [
+      {
+        "name": "Land Crush",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 90,
+          "suffix": ""
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Run Away Draw",
+        "effect": "Once during your turn, you may draw 3 cards. If you drew any cards in this way, shuffle this Pokémon and all attached cards into your deck."
+      }
+    ]
+  },
+  "TEF-128": {
+    "name": "Dunsparce",
+    "set_name": "TEF",
+    "number": "128",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/128/high.jpg",
+    "hp": 60,
+    "stage": "Basic",
+    "types": [
+      "Colorless"
+    ],
+    "retreat": 0,
+    "attacks": [
+      {
+        "name": "Gnaw",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 10,
+          "suffix": ""
+        }
+      },
+      {
+        "name": "Dig",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 30,
+          "suffix": ""
+        },
+        "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon."
+      }
+    ]
+  },
+  "TEF-153": {
+    "name": "Master Ball",
+    "set_name": "TEF",
+    "number": "153",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/153/high.jpg",
+    "effect": "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+  },
+  "TEF-161": {
+    "name": "Mist Energy",
+    "set_name": "TEF",
+    "number": "161",
+    "card_type": "Special Energy",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/161/high.jpg",
+    "effect": "As long as this card is attached to a Pokémon, it provides {C} Energy.\n\nPrevent all effects of attacks used by your opponent's Pokémon done to the Pokémon this card is attached to. (Existing effects are not removed. Damage is not an effect.)"
+  },
+  "TEF-155": {
+    "name": "Morty's Conviction",
+    "set_name": "TEF",
+    "number": "155",
+    "card_type": "Supporter",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/155/high.jpg",
+    "effect": "You can use this card only if you discard another card from your hand.\n\nDraw a card for each of your opponent's Benched Pokémon."
+  },
+  "TEF-157": {
+    "name": "Prime Catcher",
+    "set_name": "TEF",
+    "number": "157",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv05/157/high.jpg",
+    "effect": "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. If you do, switch your Active Pokémon with 1 of your Benched Pokémon."
+  },
+  "TWM-200": {
+    "name": "Dragapult ex",
+    "set_name": "TWM",
+    "number": "200",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv06/200/high.jpg",
+    "hp": 320,
+    "stage": "Stage2",
+    "types": [
+      "Dragon"
+    ],
+    "evolve_from": "Drakloak",
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Jet Headbutt",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": {
+          "amount": 70,
+          "suffix": ""
+        }
+      },
+      {
+        "name": "Phantom Dive",
+        "cost": [
+          "Fire",
+          "Psychic"
+        ],
+        "damage": {
+          "amount": 200,
+          "suffix": ""
+        },
+        "effect": "Put 6 damage counters on your opponent's Benched Pokémon in any way you like."
+      }
+    ]
+  },
+  "TWM-129": {
+    "name": "Drakloak",
+    "set_name": "TWM",
+    "number": "129",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv06/129/high.jpg",
+    "hp": 90,
+    "stage": "Stage1",
+    "types": [
+      "Dragon"
+    ],
+    "evolve_from": "Dreepy",
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Dragon Headbutt",
+        "cost": [
+          "Fire",
+          "Psychic"
+        ],
+        "damage": {
+          "amount": 70,
+          "suffix": ""
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Recon Directive",
+        "effect": "Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck."
+      }
+    ]
+  },
+  "TWM-128": {
+    "name": "Dreepy",
+    "set_name": "TWM",
+    "number": "128",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv06/128/high.jpg",
+    "hp": 70,
+    "stage": "Basic",
+    "types": [
+      "Dragon"
+    ],
+    "retreat": 1,
+    "attacks": [
+      {
+        "name": "Petty Grudge",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": {
+          "amount": 10,
+          "suffix": ""
+        }
+      },
+      {
+        "name": "Bite",
+        "cost": [
+          "Fire",
+          "Psychic"
+        ],
+        "damage": {
+          "amount": 40,
+          "suffix": ""
+        }
+      }
+    ]
+  },
+  "TWM-152": {
+    "name": "Hyper Aroma",
+    "set_name": "TWM",
+    "number": "152",
+    "card_type": "Item",
+    "img": "https://assets.tcgdex.net/en/sv/sv06/152/high.jpg",
+    "effect": "Search your deck for up to 3 Stage 1 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+  },
+  "VIV-025": {
+    "name": "Charizard",
+    "set_name": "VIV",
+    "number": "25",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh4/25/high.jpg",
+    "hp": 170,
+    "stage": "Stage2",
+    "types": [
+      "Fire"
+    ],
+    "evolve_from": "Charmeleon",
+    "retreat": 3,
+    "attacks": [
+      {
+        "name": "Royal Blaze",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "damage": {
+          "amount": 100,
+          "suffix": "+"
+        },
+        "effect": "This attack does 50 more damage for each Leon card in your discard pile."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Battle Sense",
+        "effect": "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards."
+      }
+    ]
+  },
+  "VIV-024": {
+    "name": "Charmeleon",
+    "set_name": "VIV",
+    "number": "24",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/swsh/swsh4/24/high.jpg",
+    "hp": 90,
+    "stage": "Stage1",
+    "types": [
+      "Fire"
+    ],
+    "evolve_from": "Charmander",
+    "retreat": 2,
+    "attacks": [
+      {
+        "name": "Slash",
+        "cost": [
+          "Fire"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": ""
+        }
+      },
+      {
+        "name": "Raging Flames",
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "damage": {
+          "amount": 60,
+          "suffix": ""
+        },
+        "effect": "Discard the top 3 cards of your deck."
+      }
+    ]
+  },
+  "WHT-044": {
+    "name": "Frillish",
+    "set_name": "WHT",
+    "number": "044",
+    "card_type": "Pokémon",
+    "img": "https://assets.tcgdex.net/en/sv/sv10.5w/044/high.jpg",
+    "hp": 80,
+    "stage": "Basic",
+    "types": [
+      "Psychic"
+    ],
+    "retreat": 3,
+    "attacks": [
+      {
+        "name": "Oceanic Gloom",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": {
+          "amount": 20,
+          "suffix": ""
+        },
+        "effect": "During your opponent's next turn, they can't play any Item cards from their hand."
+      }
+    ]
+  }
+}
