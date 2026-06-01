@@ -42,7 +42,7 @@ export default function GameBoard({ onCardClick }: Props) {
   return (
     <div
       className={[
-        'space-y-2 relative rounded-xl transition-all duration-150',
+        'relative grid h-full min-h-0 grid-rows-[34px_minmax(0,1fr)_24px_minmax(0,1fr)] gap-2 rounded-xl transition-all duration-150 overflow-hidden',
         isPlayZone ? 'ring-1 ring-emerald-500/40' : '',
         isOver && isPlayZone ? 'ring-emerald-400/60 shadow-lg shadow-emerald-500/10' : '',
       ].join(' ')}
@@ -69,7 +69,7 @@ export default function GameBoard({ onCardClick }: Props) {
       )}
 
       {/* Game info bar */}
-      <div className="bg-slate-900 rounded-lg px-4 py-2 flex items-center justify-between text-sm border border-slate-800">
+      <div className="bg-slate-900 rounded-lg px-4 py-1.5 flex items-center justify-between text-sm border border-slate-800 min-h-0">
         <div className="text-slate-400 text-xs">
           Turn: <span className="text-sky-400 font-mono font-medium uppercase ml-1">{turn ?? '—'}</span>
         </div>
@@ -90,7 +90,7 @@ export default function GameBoard({ onCardClick }: Props) {
       />
 
       {/* Stadium divider */}
-      <div className="flex items-center gap-3 px-2">
+      <div className="flex items-center gap-3 px-2 min-h-0">
         <div className="h-px flex-1 bg-slate-800" />
         <div
           className={[

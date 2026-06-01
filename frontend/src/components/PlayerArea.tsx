@@ -17,7 +17,7 @@ interface Props {
 
 function ZoneLabel({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-[10px] font-medium uppercase tracking-widest text-slate-500 text-center mb-1">
+    <p className="text-[10px] font-medium uppercase tracking-widest text-slate-500 text-center mb-0.5">
       {children}
     </p>
   );
@@ -144,7 +144,7 @@ function PrizeZone({ prize }: { prize: Card[] }) {
   return (
     <div className="flex flex-col items-center">
       <ZoneLabel>Prize ({prize.length})</ZoneLabel>
-      <div className="grid grid-cols-2 gap-1.5">
+      <div className="grid grid-cols-2 gap-1">
         {Array.from({ length: 6 }).map((_, i) => (
           <CardSlot key={i} faceDown={i < prize.length} />
         ))}
@@ -164,7 +164,7 @@ function BenchZone({ bench, cardImages, onCardClick, enableDrop = false }: {
   return (
     <div className="flex flex-col items-center">
       <ZoneLabel>Bench</ZoneLabel>
-      <div className="flex gap-1.5">
+      <div className="flex gap-1">
         {Array.from({ length: 5 }).map((_, i) => {
           const slotCard = bench[i] ?? null;
           const slotHasPokemon = !!slotCard;
@@ -215,7 +215,7 @@ function DeckDiscardZone({ deck, discard, cardImages }: { deck: Card[]; discard:
   const discardTop = discard.length > 0 ? discard[discard.length - 1] : null;
   return (
     <>
-      <div className="flex flex-col items-center gap-3">
+      <div className="flex flex-col items-center gap-2">
         <div className="flex flex-col items-center">
           <ZoneLabel>Deck</ZoneLabel>
           <CardSlot faceDown={deck.length > 0} count={deck.length > 0 ? deck.length : undefined} />
@@ -225,7 +225,7 @@ function DeckDiscardZone({ deck, discard, cardImages }: { deck: Card[]; discard:
           <div
             className={[
               'relative flex-shrink-0 rounded-lg overflow-hidden border-2 transition-all duration-150',
-              'w-[70px] h-[98px]',
+              'w-[clamp(56px,3.25vw,62px)] h-[clamp(78px,4.55vw,87px)]',
               discard.length > 0
                 ? 'border-slate-600 cursor-pointer hover:border-sky-500/60 hover:shadow-sm hover:shadow-sky-500/10 hover:scale-[1.03]'
                 : 'border-dashed border-slate-700 bg-slate-900/20',
@@ -272,9 +272,9 @@ function HandZone({ hand, cardImages, onCardClick }: {
   const handleDragEnd = () => { useDragStore.getState().endDrag(); setDraggingIdx(null); };
 
   return (
-    <div className="border-t border-slate-800/60 px-4 pt-2 pb-3">
+    <div className="border-t border-slate-800/60 px-3 pt-1.5 pb-2 flex-shrink-0 overflow-hidden">
       <ZoneLabel>Hand ({hand.length})</ZoneLabel>
-      <div className="flex gap-1.5 flex-wrap mt-1 items-start">
+      <div className="flex gap-1 mt-1 h-[90] items-center overflow-x-auto overflow-y-hidden overscroll-x-contain px-1 py-2">
         {hand.length === 0 ? (
           <span className="text-xs text-slate-600 py-2 px-1">No cards in hand</span>
         ) : (
@@ -322,7 +322,7 @@ function OpponentHandZone({ hand, cardImages, onCardClick }: {
 }) {
   const [revealed, setRevealed] = useState(false);
   return (
-    <div className="border-b border-slate-800/60 px-4 pt-2 pb-3">
+    <div className="border-b border-slate-800/60 px-3 pt-1.5 pb-2 flex-shrink-0 overflow-hidden">
       <div className="relative flex items-center justify-center mb-1">
         <p className="text-[10px] font-medium uppercase tracking-widest text-slate-500 text-center">
           Hand ({hand.length})
@@ -355,7 +355,7 @@ function OpponentHandZone({ hand, cardImages, onCardClick }: {
           )}
         </button>
       </div>
-      <div className="flex gap-1.5 flex-wrap mt-1">
+      <div className="flex gap-1 mt-1 h-[90] items-center overflow-x-auto overflow-y-hidden overscroll-x-contain px-1 py-2">
         {hand.length === 0 ? (
           <span className="text-xs text-slate-600 py-2 px-1">No cards in hand</span>
         ) : revealed ? (
@@ -380,9 +380,9 @@ export default function PlayerArea({ player, isOpponent, playerName, cardImages,
     : 'border-sky-900/40 bg-slate-900/60';
 
   return (
-    <div className={`rounded-xl border ${borderClass}`}>
+    <div className={`h-full min-h-0 rounded-xl border flex flex-col overflow-hidden ${borderClass}`}>
       {/* Header */}
-      <div className="flex items-center justify-between px-4 py-2 border-b border-slate-800/60">
+      <div className="flex items-center justify-between px-4 py-1.5 border-b border-slate-800/60 flex-shrink-0">
         <span className={`text-xs font-semibold flex items-center gap-1.5 ${isAgent ? 'text-sky-400' : isOpponent ? 'text-amber-400' : 'text-sky-400'}`}>
           {isAgent && (
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" className="opacity-80">
@@ -406,17 +406,17 @@ export default function PlayerArea({ player, isOpponent, playerName, cardImages,
 
       {isOpponent && <OpponentHandZone hand={player.hand} cardImages={cardImages} onCardClick={onCardClick} />}
 
-      <div className="flex items-start gap-4 p-4">
+      <div className="flex-1 min-h-0 flex items-center gap-3 px-3 py-2 overflow-hidden">
         {isOpponent ? (
           <>
             {deckDiscardZone}
-            <div className="flex-1 flex flex-col items-center gap-3">{benchZone}{activeZone}</div>
+            <div className="flex-1 min-w-0 flex flex-col items-center justify-center gap-2">{benchZone}{activeZone}</div>
             {prizeZone}
           </>
         ) : (
           <>
             {prizeZone}
-            <div className="flex-1 flex flex-col items-center gap-3">{activeZone}{benchZone}</div>
+            <div className="flex-1 min-w-0 flex flex-col items-center justify-center gap-2">{activeZone}{benchZone}</div>
             {deckDiscardZone}
           </>
         )}

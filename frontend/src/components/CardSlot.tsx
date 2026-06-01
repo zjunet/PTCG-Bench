@@ -8,6 +8,7 @@ export interface CardSlotProps {
   faceDown?: boolean;
   isActive?: boolean;
   count?: number;
+  disableScale?: boolean;
   onClick?: (card: Card, imageUrl?: string) => void;
 }
 
@@ -17,6 +18,7 @@ function CardSlot({
   faceDown = false,
   isActive = false,
   count,
+  disableScale = false,
   onClick,
 }: CardSlotProps) {
   const [imgError, setImgError] = useState(false);
@@ -52,14 +54,20 @@ function CardSlot({
     <div
       className={[
         'relative flex-shrink-0 rounded-lg overflow-hidden transition-all duration-150',
-        'w-[70px] h-[98px] border-2',
+        'w-[clamp(56px,3.25vw,62px)] h-[clamp(78px,4.55vw,87px)] border-2',
         isEmpty
           ? isActive
             ? 'border-dashed border-sky-800/50 bg-sky-950/10'
             : 'border-dashed border-slate-700 bg-slate-900/20'
           : isActive
-          ? 'border-sky-400/80 shadow-sm shadow-sky-400/20 cursor-pointer hover:scale-[1.04] hover:border-sky-300'
-          : 'border-slate-700 cursor-pointer hover:border-sky-500/60 hover:shadow-sm hover:shadow-sky-500/10 hover:scale-[1.04]',
+          ? [
+              'border-sky-400/80 shadow-sm shadow-sky-400/20 cursor-pointer hover:border-sky-300',
+              disableScale ? '' : 'hover:scale-[1.04]',
+            ].join(' ')
+          : [
+              'border-slate-700 cursor-pointer hover:border-sky-500/60 hover:shadow-sm hover:shadow-sky-500/10',
+              disableScale ? '' : 'hover:scale-[1.04]',
+            ].join(' '),
       ].join(' ')}
       onClick={handleClick}
     >
