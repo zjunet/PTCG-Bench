@@ -103,9 +103,12 @@ function ReplayLog() {
         })}
       </div>
 
-      <div className="flex items-center gap-4 px-4 py-2 border-t border-slate-800 flex-shrink-0">
-        <div className="flex items-center gap-1.5"><div className="w-1.5 h-1.5 rounded-full bg-sky-400" /><span className="text-[10px] text-slate-600 font-mono">P1</span></div>
-        <div className="flex items-center gap-1.5"><div className="w-1.5 h-1.5 rounded-full bg-amber-400" /><span className="text-[10px] text-slate-600 font-mono">P2</span></div>
+      <div className="border-t border-slate-800 flex-shrink-0">
+        <div className="flex items-center gap-4 px-4 py-2 border-b border-slate-800">
+          <div className="flex items-center gap-1.5"><div className="w-1.5 h-1.5 rounded-full bg-sky-400" /><span className="text-[10px] text-slate-600 font-mono">P1</span></div>
+          <div className="flex items-center gap-1.5"><div className="w-1.5 h-1.5 rounded-full bg-amber-400" /><span className="text-[10px] text-slate-600 font-mono">P2</span></div>
+        </div>
+        <ReplayControls embedded />
       </div>
     </div>
   );
@@ -204,14 +207,11 @@ export default function ReplayViewer({ onBack }: Props) {
   const frame = frames[currentFrame];
 
   return (
-    <div className="p-3 flex flex-col" style={{ height: 'calc(100vh - 44px)' }}>
+    <div className="p-2 flex flex-col overflow-hidden" style={{ height: 'calc(100vh - 44px)' }}>
       <div className="grid grid-cols-12 gap-3 flex-1 min-h-0">
-        <div className="col-span-9 overflow-y-auto flex flex-col gap-2">
+        <div className="col-span-9 min-h-0 overflow-hidden">
           {frame ? (
-            <>
-              <ReplayBoard state={frame.state} cardImages={cardImages} onCardClick={(card, imageUrl) => setSelectedCard({ card, imageUrl })} />
-              <div className="sticky bottom-0"><ReplayControls /></div>
-            </>
+            <ReplayBoard state={frame.state} cardImages={cardImages} onCardClick={(card, imageUrl) => setSelectedCard({ card, imageUrl })} />
           ) : (
             <div className="flex items-center justify-center h-full text-slate-600 text-sm">No frame data</div>
           )}

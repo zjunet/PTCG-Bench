@@ -21,7 +21,11 @@ function IconPause() {
   return <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" /></svg>;
 }
 
-export default function ReplayControls() {
+interface Props {
+  embedded?: boolean;
+}
+
+export default function ReplayControls({ embedded = false }: Props) {
   const { frames, currentFrame, isPlaying, playbackSpeed, winner, filename, togglePlay, prevFrame, nextFrame, goToFrame, setSpeed, unloadReplay } = useReplayStore();
 
   const total = frames.length;
@@ -31,7 +35,10 @@ export default function ReplayControls() {
   const isLastFrame = atEnd && winner !== null;
 
   return (
-    <div className="bg-slate-900 border border-slate-800 rounded-lg px-4 py-3 flex flex-col gap-2">
+    <div className={[
+      'bg-slate-900 px-4 py-3 flex flex-col gap-2',
+      embedded ? 'border-0 rounded-none' : 'border border-slate-800 rounded-lg',
+    ].join(' ')}>
       {/* Winner */}
       {isLastFrame && (
         <div className="text-center text-xs font-semibold font-mono text-amber-400 tracking-wide">
