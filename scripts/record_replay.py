@@ -151,14 +151,6 @@ async def record(
         await add_styles(
             page,
             f"html, body {{ zoom: {zoom}; }}" if zoom != 1.0 else None,
-            """
-            .grid.grid-cols-12.gap-3.flex-1.min-h-0 > div:last-child {
-                display: none !important;
-            }
-            .grid.grid-cols-12.gap-3.flex-1.min-h-0 > div:first-child {
-                grid-column: 1 / -1 !important;
-            }
-            """,
         )
 
         # ── Enter replay mode ──────────────────────────────────────────────────
@@ -213,6 +205,14 @@ async def record(
             """
             nav.fixed.top-0.inset-x-0.z-50.h-11 {
                 display: none !important;
+            }
+            """,
+            """
+            .grid.grid-cols-12.gap-3.flex-1.min-h-0 > div:last-child {
+                display: none !important;
+            }
+            .grid.grid-cols-12.gap-3.flex-1.min-h-0 > div:first-child {
+                grid-column: 1 / -1 !important;
             }
             """,
             """
