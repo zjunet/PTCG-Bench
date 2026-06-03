@@ -35,7 +35,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 backend/battle_log/
+battle_log/
 recordings/
+
+# Benchmark and agent runtime artifacts
+bench_data/
+.ptcg/
 
 # Environment and local config
 .env

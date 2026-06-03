@@ -12,6 +12,33 @@
 
 **PTCG-Bench** is a benchmark for evaluating LLM agents in strategically rich, interactive gameplay. Built on the Pokemon Trading Card Game (PTCG), it tests both in-game decision making and improvement through accumulated play experience.
 
+## Gameplay Demo
+
+<table>
+  <tr>
+    <td width="33%">
+      <img src="assets/demo_gifs/seed_0.gif" alt="PTCG-Bench gameplay demo seed 0" width="100%">
+    </td>
+    <td width="33%">
+      <img src="assets/demo_gifs/seed_2.gif" alt="PTCG-Bench gameplay demo seed 2" width="100%">
+    </td>
+    <td width="33%">
+      <img src="assets/demo_gifs/seed_3.gif" alt="PTCG-Bench gameplay demo seed 3" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <img src="assets/demo_gifs/seed_7.gif" alt="PTCG-Bench gameplay demo seed 7" width="100%">
+    </td>
+    <td width="33%">
+      <img src="assets/demo_gifs/seed_8.gif" alt="PTCG-Bench gameplay demo seed 8" width="100%">
+    </td>
+    <td width="33%">
+      <img src="assets/demo_gifs/seed_9.gif" alt="PTCG-Bench gameplay demo seed 9" width="100%">
+    </td>
+  </tr>
+</table>
+
 ## Installation
 
 PTCG-Bench uses Python 3.12+, [uv](https://docs.astral.sh/uv/), Node.js 18+, npm, and [ptcg-engine](https://github.com/gemelom/ptcg-engine).
