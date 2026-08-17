@@ -44,7 +44,7 @@
 PTCG-Bench uses Python 3.12+, [uv](https://docs.astral.sh/uv/), Node.js 18+, npm, and [ptcg-engine](https://github.com/gemelom/ptcg-engine).
 
 ```bash
-git clone https://github.com/gemelom/PTCG-Bench.git
+git clone https://github.com/zjunet/PTCG-Bench
 cd PTCG-Bench
 
 # Install Python dependencies, including ptcg-engine from GitHub.
